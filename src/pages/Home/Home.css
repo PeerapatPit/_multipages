@@ -1,0 +1,22 @@
+.home-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    border-radius: 0.5em;
+    padding: 2rem;
+    width: 920px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 5px gray;
+    margin-bottom: 2rem;
+}
+
+.home-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: 2rem;
+    background-image: url(/public/Profile.jpg);
+    background-size: cover;
+    background-position: center;
+}

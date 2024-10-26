@@ -1,0 +1,20 @@
+.variable-name{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: white
+}
+
+.variable-button{
+    border: 1px solid ;
+
+}
+
+.variable-value{
+    font-size: 2em;
+    padding: 1em;
+}
+
+.variable-title{
+    color: red;
+}

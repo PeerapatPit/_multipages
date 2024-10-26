@@ -1,0 +1,51 @@
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.main-container{
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 2rem;
+  width: 920px;
+  background-image: url(./imgs/background.jpg);
+  background-size: cover;
+  margin: 0 auto;
+  
+}
+
+.first-box{ 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.second-box{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.first-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 1rem;
+}
+
+.third-box{
+  display: flex;
+  gap: 1rem;
+}
+
+.title-container,
+.name {
+  text-align: center;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  width: 400px; /* ความกว้างคงที่ */
+  margin: 5px auto 5px; /* จัดกลางแนวนอน */
+}

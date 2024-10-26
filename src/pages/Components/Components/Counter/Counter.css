@@ -1,0 +1,30 @@
+.counter-name{
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    background-color: white
+}
+
+.counter-button{
+    border: 1px solid ;
+
+}
+
+.counter-value{
+    font-size: 2em;
+    padding: 1em;
+}
+
+.counter-title{
+    color: red;
+}
+
+.counter-dec{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.counter-inc{
+    background-color: black;
+    color: white;
+}

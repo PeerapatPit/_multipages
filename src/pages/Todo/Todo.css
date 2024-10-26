@@ -1,0 +1,16 @@
+.todo-filter-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-spacing{
+    margin: 0 0.3rem;
+}
+
+.form-check{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
